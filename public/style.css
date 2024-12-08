@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  background-color: whitesmoke;
 }
 
 #gameHeader {
@@ -18,7 +19,7 @@
 #scoreBoard {
   width: 100vw;
   height: 70px;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
 }
@@ -34,5 +35,7 @@
 #gameBoard {
   width: 528px;
   height: 528px;
+  margin: auto;
   border: 1px solid darkgrey;
+  background-color: white;
 }
