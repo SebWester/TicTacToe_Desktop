@@ -1,0 +1,1 @@
+Remove bkg-color in #scoreBoard !!! 

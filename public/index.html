@@ -8,10 +8,18 @@
     script-src 'self'"
     />
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p id="info"></p>
+    <div id="gameHeader"><h1>Tic Tac Toe</h1></div>
+    <div id="mainContainer">
+      <div id="scoreBoard">
+        <div id="player"><h2>You</h2></div>
+        <div id="computer"><h2>Computer</h2></div>
+      </div>
+
+      <div id="gameBoard"></div>
+    </div>
 
     <script src="../renderer.js"></script>
     <script src="script.js"></script>

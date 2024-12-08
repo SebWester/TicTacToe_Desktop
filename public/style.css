@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+#gameHeader {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#mainContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#scoreBoard {
+  width: 100vw;
+  height: 70px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+#player {
+  margin-left: 20px;
+}
+
+#computer {
+  margin-right: 20px;
+}
+
+#gameBoard {
+  width: 528px;
+  height: 528px;
+  border: 1px solid darkgrey;
+}
